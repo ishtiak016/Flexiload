@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".billpay">
+    <TextView
+        android:id="@+id/billTitle"
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/customborder"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Pay Bill"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="6"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_weight="4"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textviewcustom"
+            android:layout_marginRight="4dp"
+            android:textSize="14sp"
+
+            android:text="Bill Month"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/billMonth"
+            android:layout_weight="2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customborder"
+            android:textSize="16sp"
+            android:hint="July/2021"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="6"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_weight="4"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textviewcustom"
+            android:layout_marginRight="4dp"
+            android:textSize="14sp"
+
+            android:text="Bill Number"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/billNumber"
+            android:layout_weight="2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customborder"
+            android:textSize="16sp"
+            android:inputType="numberDecimal"
+            android:hint="Bil Number"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="6"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_weight="4"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textviewcustom"
+            android:layout_marginRight="4dp"
+            android:textSize="12sp"
+            android:text="Amount"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/billAmmount"
+            android:layout_weight="2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customborder"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:inputType="numberDecimal"
+            android:hint="Enter Amount"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="6"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_weight="4"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textviewcustom"
+            android:layout_marginRight="4dp"
+            android:textSize="16sp"
+            android:text="PIN"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:inputType="numberDecimal"
+            android:id="@+id/billPin"
+            android:layout_weight="2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customborder"
+            android:textSize="16sp"
+            android:hint="Enter Pin "
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/billSend"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textviewcustom"
+        android:layout_marginRight="4dp"
+        android:textSize="16sp"
+        android:text="Send"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+</LinearLayout>

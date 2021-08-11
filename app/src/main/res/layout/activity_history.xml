@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:background="@drawable/customborder"
+    tools:context=".history">
+    <LinearLayout
+        android:padding="5dp"
+        android:background="#B0D2E1"
+        android:weightSum="7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/uName"
+            android:text="Phone"/>
+        <TextView
+            android:gravity="center"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/uAmmount"
+            android:text="ammount"/>
+        <TextView
+            android:gravity="center"
+            android:id="@+id/uTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Account"
+            android:textSize="10sp" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/uAgent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Title"
+            android:textSize="10sp" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/uStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="status"
+            android:textSize="10sp" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/utime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Time"
+            android:textSize="10sp" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/udate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="date"
+            android:textSize="10sp" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:id="@+id/recyclerview"/>
+    </ScrollView>
+</LinearLayout>

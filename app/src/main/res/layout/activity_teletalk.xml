@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".teletalk">
+    <TextView
+        android:id="@+id/gTitle"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/customborder"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Teletalk"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+    <RadioGroup
+        android:layout_gravity="center"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:id="@+id/categoryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" >
+
+        <RadioButton
+            android:checked="true"
+            android:layout_marginRight="10dp"
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prepaid" />
+
+        <RadioButton
+            android:layout_marginRight="10dp"
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post paid" />
+
+        <RadioButton
+
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skitto" />
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="6"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_weight="4"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textviewcustom"
+            android:layout_marginRight="4dp"
+            android:textSize="14sp"
+            android:text="Phone Number"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/gNumber"
+            android:layout_weight="2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customborder"
+            android:textSize="16sp"
+            android:inputType="numberDecimal"
+            android:hint="Enter Your Number"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="6"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_weight="4"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textviewcustom"
+            android:layout_marginRight="4dp"
+            android:textSize="14sp"
+            android:inputType="numberDecimal"
+            android:text="Amount"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/gAmmount"
+            android:layout_weight="2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customborder"
+            android:textSize="16sp"
+            android:inputType="numberDecimal"
+            android:hint="Enter Amount"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="6"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_weight="4"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textviewcustom"
+            android:layout_marginRight="4dp"
+            android:textSize="14sp"
+            android:text="PIN"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/gPin"
+            android:layout_weight="2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customborder"
+            android:textSize="16sp"
+            android:inputType="numberDecimal"
+            android:hint="Enter your pin"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/gSend"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textviewcustom"
+        android:layout_marginRight="4dp"
+        android:textSize="16sp"
+        android:text="Send"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

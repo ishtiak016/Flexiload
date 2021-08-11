@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "444724163811",
+    "project_id": "flexiload-2daab",
+    "storage_bucket": "flexiload-2daab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444724163811:android:13dcfbd9eec26a461d01d6",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444724163811-2ldbvr9r8qi799manlpirnoiqbgh0frd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1-s3PvP_L8irXC0SMid0iqjM5PSjf-58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444724163811-2ldbvr9r8qi799manlpirnoiqbgh0frd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

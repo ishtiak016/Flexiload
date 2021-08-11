@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/pakage_background">
+    <LinearLayout
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/internet"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="25GB"
+        android:textColor="#951006"/>
+        <TextView
+            android:id="@+id/minute"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="750Minute"
+            android:textColor="#951006"/>
+        <TextView
+            android:id="@+id/operator"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GrameenPhone"
+            android:gravity="end"
+            android:textColor="#951006"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/sms"
+        android:textSize="16sp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="200sms"
+        android:textColor="#951006"/>
+        <TextView
+            android:id="@+id/days"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="30days"
+            android:textColor="#951006"/>
+        <TextView
+            android:id="@+id/regularPrice"
+            android:gravity="end"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Regular Price 600"
+            android:textColor="#951006"/>
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/area"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Area"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/offerPrice"
+            android:background="#FFEB3B"
+            android:gravity="center"
+            android:layout_weight="1"
+
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Offer Price 300"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:padding="5dp"
+        android:background="#FBEEEE"
+        android:weightSum="7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/uNumberS"
+            android:text="Number"/>
+        <TextView
+            android:gravity="center"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/utxnid"
+            android:text="Txnid"/>
+        <TextView
+            android:gravity="center"
+            android:id="@+id/uAmmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Amount"
+            android:textSize="10sp" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/uType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Type"
+            android:textSize="10sp" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/uStatuss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="status"
+            android:textSize="10sp" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/uTimes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Time"
+            android:textSize="10sp" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/uDates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="date"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</LinearLayout>

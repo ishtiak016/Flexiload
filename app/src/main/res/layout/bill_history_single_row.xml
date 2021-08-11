@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:padding="5dp"
+        android:background="#FBEEEE"
+        android:weightSum="6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/uBillMonthM"
+            android:text="Bill Month"/>
+        <TextView
+            android:gravity="center"
+            android:id="@+id/uBillNumberM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bill Number"
+            android:textSize="10sp" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/uAmmountM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Amount"
+            android:textSize="10sp" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/uStatuBillM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="status"
+            android:textSize="10sp" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/uTimeBillM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Time"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/uDateBillM"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="date"
+            android:textSize="10sp" />
+    </LinearLayout>
+</LinearLayout>

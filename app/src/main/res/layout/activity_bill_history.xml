@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".bill_history">
+    <LinearLayout
+        android:padding="5dp"
+        android:background="#FBEEEE"
+        android:weightSum="6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/uBillMonth"
+            android:text="Bill Month"/>
+        <TextView
+            android:gravity="center"
+            android:id="@+id/uBillNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bill Number"
+            android:textSize="10sp" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/uAmmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Amount"
+            android:textSize="10sp" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/uStatuBill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="status"
+            android:textSize="10sp" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/uTimeBill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Time"
+            android:textSize="10sp" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/uDateBill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="date"
+            android:textSize="10sp" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:id="@+id/recyclerview"/>
+    </ScrollView>
+</LinearLayout>
